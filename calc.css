@@ -51,6 +51,7 @@ body{
 }
 #clear{
   grid-column: 1/3;
+  background-color: indianred;
 }
 #zero{
   grid-column: 1/3;
@@ -58,4 +59,13 @@ body{
 #equals{
   grid-row: 4/6;
   grid-column: 4/5;
+  background-color: lightgreen;
+}
+#clear:hover{
+  background-color: hsl(0, 0%, 50%);
+  color:hsl(0, 0%, 80%);
+}
+#equals:hover{
+  background-color: hsl(0, 0%, 50%);
+  color:hsl(0, 0%, 80%);
 }
